@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="papamover">
+        <div class="mover" id="mover">Mover</div>
+        <div class="crearMapa" id="crearMapa">Crear Mapa</div>
+    </div>
+    <div class="contenedor">
+
+        <div class="div-canvas">
+            <h1>Agente Avanzar</h1>
+            <canvas class="canvas" id="canvas" width="500" height="500"></canvas>
+        </div>
+        <div class="div-botones2">
+            <button type="button" onclick="limpiar();" style="margin-top: 15px;">Limpiar Cuadriculas</button>
+        </div>
+    </div>
+    <img src="./imagenes/agente.png" alt="" id="img" style="display: none;">
+    <img src="./imagenes/pared.jpg" alt="" id="pared" style="display: none;">
+    <script src="./app.js"></script>
+</body>
+
+</html>
