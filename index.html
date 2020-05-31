@@ -11,7 +11,8 @@
 <body>
     <div class="papamover">
         <div class="mover" id="mover">Mover</div>
-        <div class="crearMapa" id="crearMapa">Crear Mapa</div>
+        <div class="crearMapa" id="crearMapa">Mapa</div>
+        <div class="agente" id="agente">Agente</div>
     </div>
     <div class="contenedor">
 
@@ -20,10 +21,10 @@
             <canvas class="canvas" id="canvas" width="500" height="500"></canvas>
         </div>
         <div class="div-botones2">
-            <button type="button" onclick="limpiar();" style="margin-top: 15px;">Limpiar Cuadriculas</button>
+            <button type="button" id="limpiar" style="margin-top: 15px;">Limpiar Cuadriculas</button>
         </div>
     </div>
-    <img src="./imagenes/agente.png" alt="" id="img" style="display: none;">
+    <img src="./imagenes/agente10.png" alt="" id="img" style="display: none;">
     <img src="./imagenes/pared.jpg" alt="" id="pared" style="display: none;">
     <script src="./app.js"></script>
 </body>
